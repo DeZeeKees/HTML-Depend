@@ -32,8 +32,8 @@
                     $stmt->execute();
                 } else if($amount == 2) {
                     $stmt = $DBH->prepare('insert into '. $TBname .' values' . $DataAmountValue . '');
-                    stmt->bindParam(1,$data1);
-                    $stmt->bindParam(2,data2);
+                    $stmt->bindParam(1,$data1);
+                    $stmt->bindParam(2,$data2);
                     $stmt->execute();
                 } else if($amount == 3) {
                     $stmt = $DBH->prepare('insert into '. $TBname .' values' . $DataAmountValue . '');
