@@ -104,4 +104,10 @@
             }
         }
     #endregion
+    #region testing
+        function test()
+        {
+            echo "testing a external php function";
+        }
+    #endregion
 ?>
