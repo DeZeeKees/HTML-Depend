@@ -105,9 +105,9 @@
         }
     #endregion
     #region testing
-        function test()
+        function test($message)
         {
-            echo "testing a external php function";
+            echo $message;
         }
     #endregion
 ?>
